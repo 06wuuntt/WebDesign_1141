@@ -43,6 +43,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* padding-top: 0.8rem; */
     gap: 12px;
 }
 
@@ -67,6 +68,7 @@ h1 {
 
 .nav {
     background-color: #778A50;
+    border-radius: 3px;
 }
 
 .nav-list {
@@ -87,9 +89,9 @@ h1 {
     color: #EDF2C5;
     text-decoration: none;
     padding: 10px 15px;
-    font-weight: bold;
+    font-weight: 900;
     border-bottom: none;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.4px;
 }
 
 .nav-link:hover {
@@ -127,10 +129,11 @@ h1 {
 .title {
     display: block;
     background-color: #778A50;
+    border-radius: 3px;
     padding: 0.625rem 1.875rem;
     color: #EDF2C5;
     font-weight: 800;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.4px;
 }
 
 .article {
@@ -150,7 +153,9 @@ h1 {
 
 .footer {
     background-color: #778A50;
-    width: 100vw;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     color: #EDF2C5;
     text-align: center;
     padding-top: 0.5rem;
